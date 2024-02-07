@@ -63,15 +63,15 @@ const ItemList = () => {
     };
 
     const item11 = {
-        name: "dish soap 🍽️",
+        name: "toothpaste 🦷",
         quantity: 1,
-        category: "household",
+        category: "personal care",
     };
 
     const item12 = {
-        name: "hand soap 🧼",
-        quantity: 4,
-        category: "household",
+        name: "shampoo 🧴",
+        quantity: 1,
+        category: "personal care",
     };
 
     return (

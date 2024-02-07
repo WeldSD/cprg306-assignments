@@ -1,13 +1,14 @@
-import Link from "next/link";
+import ItemList from "./item-list";
 
-const Item = ({ name, quantity, category }) => {
+export default function Item({
+ name, quantity, category}){
     return (
-        <li className="bg-gray-200 p-4 rounded-md">
-            <h3 className="text-xl font-bold">{name}</h3>
-            <p>Quantity: {quantity}</p>
-            <p>Category: {category}</p>
-        </li>
+        <div className="ml-5 m-4 border-stroke-lime-900 outline-offset-4" >
+            <h2 className="text-md text-green-500 font-bold">{name}</h2>
+            <p className="text-green-500">buy {quantity} , in: {category}</p>
+           
+        </div>
     );
-};
 
-export default Item;
+}
+
