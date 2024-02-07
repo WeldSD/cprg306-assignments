@@ -6,12 +6,12 @@ export default function Page() {
       <h1 className="text-purple-500">WebDev2</h1>
 
       <ul>
-        <li>
+        <li className="bg-black text-purple-500">
           <Link href="week-2">Week 2</Link>
         </li>
       </ul>
       <ul>
-        <li>
+        <li className="bg-black text-purple-500">
           <Link href="week-3">Week 3</Link>
         </li>
       </ul>

@@ -1,5 +1,5 @@
-import React from 'react';
-import Item from './Item';
+
+import Item from './item.js';
 
 const ItemList = () => {
     const item1 = {
