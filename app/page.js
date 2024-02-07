@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <main>
-      <h1>WebDev2</h1>
+    <main className="bg-black">
+      <h1 className="text-purple-500">WebDev2</h1>
 
       <ul>
         <li>
@@ -15,8 +15,6 @@ export default function Page() {
           <Link href="week-3">Week 3</Link>
         </li>
       </ul>
-      
-
     </main>
   );
 }
