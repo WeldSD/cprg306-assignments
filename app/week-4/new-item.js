@@ -18,6 +18,7 @@ export default function NewItem() {
       <form onSubmit={handleSubmit}>
         <label className="text-green-500">Name</label>
         <input
+        
           className="border-2 border-stroke-lime-900 outline-offset-4 text-black"
           type="text"
           value={name}
@@ -38,7 +39,7 @@ export default function NewItem() {
           onChange={(event) => setCategory(event.target.value)} // Update the category state variable when the input changes
         />
         <br />
-        <button on onClick={handleSubmit} className="bg-green-500 text-black">Add</button>
+        <button on onClick={handleSubmit} className="bg-green-500 text-black indent-8 border-spacing-8 m-8 text-lg align-middle">Add</button>
       </form>
 
     </div>
